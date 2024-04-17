@@ -55,3 +55,13 @@ poetry install
 
 # Run the application
 poetry run uvicorn app.main:app --reload
+
+# Navigate to the frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+
+# Run the application
+npm run dev
+
